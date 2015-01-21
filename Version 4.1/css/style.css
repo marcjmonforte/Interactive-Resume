@@ -1,0 +1,298 @@
+/*****************/
+/*GLOBAL STYLINGS*/
+/*****************/
+
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Jockey+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	font-family: Open Sans;
+}
+
+#skillsHeader, #experiencesHeader, #portfolioHeader {
+	color: rgb(57,98,120);
+	font-size: 1.5em;
+	font-family: Anton;
+	text-align: center;
+	text-shadow: 2px 2px 1px lightgray;
+}
+
+/***********************/
+/*LANDING PAGE STYLINGS*/
+/***********************/
+
+#landingPage {
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	background: 
+		linear-gradient(
+	    	rgba(255,255,255, 0.45), 
+	    	rgba(255,255,255, 0.45)
+	    ),
+		url(../images/jumbotron.png);
+	background-size: cover;
+	z-index: -3;
+	opacity: 0;
+}
+
+#landingName {
+	text-align: center;
+	font-family: anton;
+	font-size: 4em;
+	color: black;
+	text-shadow: 3px 3px 3px gray;
+	margin-top: 35%;
+	letter-spacing: 0.25px;
+	z-index: -1;
+	opacity: 0;
+}
+
+.landingHR {
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: -1%;
+	z-index: -1;
+}
+
+#landingTitle {
+	text-align: center;
+	font-family: Jockey One;
+	font-size: 2.5em;
+	color: black;
+	text-shadow: 3px 3px 3px gray;
+	margin-top: -2.5%;
+	letter-spacing: 0.65px;
+	z-index: -1;
+	opacity: 0;
+}
+
+#firstRow {
+	width: 100vw;
+	background-color: rgba(255,255,255,0.8);
+	z-index: -2;
+	height: 13vh;
+	position: fixed;
+	top: 39vh;
+	opacity: 0;
+}
+
+/***********************/
+/*PROFILE PAGE STYLINGS*/
+/***********************/
+
+#profilePage {
+	margin-top: 50vh;
+	height: 40vh;
+	background-color: white;
+	border-top: 4px solid rgb(57,98,120);
+}
+
+#profilePicture {
+	border-radius: 50%;
+	border: 8px solid rgb(57,98,120);
+	height: 34vh;
+	box-shadow: 3px 3px 1px gray;
+}
+
+.profileHeader {
+	color: rgb(57,98,120);
+	font-size: 1.5em;
+	font-family: Anton;
+	margin-bottom: 1em;	
+	text-shadow: 2px 2px 1px lightgray;
+	/*text-decoration: underline;
+	text-decoration-color: rgb(57,98,120);*/
+}
+
+#pamContent p {
+	font-size: 0.9em;
+}
+
+.psBtn {
+	border-radius: 10px;
+	height: 1px;
+	text-align: center;
+	font-family: Jockey One;
+	margin-bottom: -1em;
+	box-shadow: 2px 2px 1px gray;
+}
+
+#psbFacebook {
+	background-color: #3b5998;
+}
+#psbFacebook:hover {
+	background-color: #2f4779;
+}
+
+#psbTwitter {
+	background-color: #00aced;
+}
+#psbTwitter:hover {
+	background-color: #0089bd;
+}
+
+#psbInstagram {
+	background-color: #c08d64;
+}
+#psbInstagram:hover {
+	background-color: #997050;
+}
+
+#psbLinkedIn {
+	background-color: #007bb6;
+}
+#psbLinkedIn:hover {
+	background-color: #006291;
+}
+
+#psbGitHub {
+	background-color: #171515;
+}
+#psbGitHub:hover {
+	background-color: #454343;
+}
+
+#psbEmail {
+	background-color: #dd4b39;
+}
+#psbEmail:hover {
+	background-color: #b03c2d;
+}
+
+/**********************/
+/*SKILLS PAGE STYLINGS*/
+/**********************/
+
+#skillsPage {
+	height: 37vh;
+	background-color: rgb(236,232,230);
+	border-top: 4px solid rgb(57,98,120);
+}
+
+.skillsRow {
+	text-align: center;
+}
+
+.skillsLogos {
+	height: 10vh;
+	margin-right: 2%;
+}
+
+/**************************/
+/*EXPERIENCE PAGE STYLINGS*/
+/**************************/
+
+#experiencePage {
+	height: 104vh;
+	background-color: white;
+	border-top: 4px solid rgb(57,98,120);
+}
+
+.experienceLogo {
+	height: 12vh;
+}
+
+.experiencePosition {
+	font-family: Jockey One;
+}
+
+/*************************/
+/*PORTFOLIO PAGE STYLINGS*/
+/*************************/
+
+#portfolioPage {
+	height: 58vh;
+	background-color: rgb(236,232,230);
+	border-top: 4px solid rgb(57,98,120);
+}
+
+/*#portfolioSubheader {
+	color: black;
+	font-size: 0.9em;
+	text-align: center;
+	margin-top: 1em;
+}*/
+
+.portfolioContent {
+	text-align: center;
+}
+
+#portfolioImagesTop {
+	margin-top: 1em;
+	margin-bottom: 30px;
+}
+
+.centerImage {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.portfolioImage {
+	height: 21vh;
+	width: 300px;
+	border: 5px solid rgb(57,98,120);
+	border-radius: 10px;
+	box-shadow: 3px 3px 1px gray;
+}
+
+/***********************/
+/*CONTACT PAGE STYLINGS*/
+/***********************/
+
+#contactPage {
+	height: 50vh;
+	background-color: rgb(12,19,25);
+	border-top: 4px solid rgb(57,98,120);
+}
+
+#contactHeader {
+	color: white;
+	font-size: 1.5em;
+	font-family: Anton;
+	margin-bottom: 1em;
+	margin-left: 2%;
+}
+
+#chYou {
+	color: rgb(58,98,120);
+}
+
+.contactButton {
+	width: 100%;
+	background-color: rgb(57,98,120);
+	border: none;
+	font-weight: bold;
+	color: white;
+}
+
+.contactMedia {
+	color: black;
+	height: 6vh;
+	width: 6vh;
+	margin-bottom: 11px;
+}
+
+#contactFacebook {
+	margin-top: 6vh;
+}
+
+#contactEmail {
+	margin-bottom: 0;
+}
+
+/********/
+/*FOOTER*/
+/********/
+
+/*#footer {
+	background-color: rgb(12,19,25);
+	height: 10px;
+	text-align: right;
+	margin-right: 0.5%;
+	margin-top: 0.5vh;
+	margin-bottom: 0.5vh;
+	font-family: Anton;
+	color: rgb(57,98,120);
+}*/

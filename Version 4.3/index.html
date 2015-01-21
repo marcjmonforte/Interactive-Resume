@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Interactive web portfolio for Marc Monforte">
+	<meta name="author" content="Marc Monforte">
+	<title>Marc Monforte | Interactive Resume</title>
+	
+	<!-- LINK TO STYLESHEETS -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/foundation.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- LINK TO SCRIPTS -->
+	<script src="js/wufoo.js"></script>
+	<script src="js/jQuery.js"></script>
+	<script src="js/jquery.scrollme.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+
+	<!-- ========== -->
+	<!-- NAVIGATION -->
+	<!-- ========== -->
+
+	<ul class="side-nav">
+	  <li class="navIcon" id="iconStudent">
+	  	<a href="#top" class="smoothScroll">
+	  		<img src="images/navLogos/student.png" alt="Student icon - smoothscroll to home">
+	  	</a>
+	  </li>
+
+	  <li class="navIcon" id="iconStar">
+	  	<a href="#skillContent" class="smoothScroll">
+	  		<img src="images/navLogos/star.png" alt="Star icon - smoothscroll to skills">
+	  	</a>
+
+	  </li>
+
+	  <li class="navIcon" id="iconDiploma">
+	  	<a href="#expSection" class="smoothScroll">
+	  		<img src="images/navLogos/diploma.png" alt="Diploma icon - smoothscroll to experience">
+	  	</a>
+	  </li>
+
+	  <li class="navIcon" id="iconForm">
+	  	<a href="#contactHeader" class="smoothScroll">
+	  		<img src="images/navLogos/form.png" alt="Form icon - smoothscroll to contact">
+	  	</a>
+	  </li>
+	</ul>	
+
+	<!-- ============ -->
+	<!-- LANDING PAGE -->
+	<!-- ============ -->
+
+	<div class="wrapper wrapper1" id="top">
+		<div id="landingPage"></div>
+		<div class="row">
+			<div class="small-12 small-centered columns" id="landingText">
+				<div id="landingContent"> 
+					<h1 class="alignCenter josefinSlab">THIS IS <span class="accentedText">MARC</span></h1>
+					<hr>
+					<h2 class="alignCenter raleway">He's got "expensive" rings on his fingers and a not-so-expensive bag of Oreos on his neck. But make no mistake: he works hard for all of those things, and <span class="accentedText">he'll work hard for you.</span> <br>Get to know him.</h2>
+					<div class="socialMedia alignCenter">
+						<a href="https://www.facebook.com/marcmonforte" target="_blank">
+							<img src="images/socialLogos/facebook.png" alt="Facebook Icon">
+						</a>
+						<a href="https://twitter.com/marcjmonforte" target="_blank">
+							<img src="images/socialLogos/twitter.png" alt="Twitter Icon">
+						</a>
+						<a href="http://instagram.com/marcjmonforte" target="_blank">
+							<img src="images/socialLogos/instagram-2.png" alt="Instagram Icon">
+						</a>
+						<a href="https://www.linkedin.com/in/marcjmonforte" target="_blank">
+							<img src="images/socialLogos/linkedin.png" alt="LinkedIn Icon">
+						</a>
+						<a href="mailto:marcjmonforte@gmail.com" target="_blank">
+							<img src="images/socialLogos/email.png" alt="Email Icon">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ========================= -->
+	<!-- GRADIENT BETWEEN SECTIONS -->
+	<!-- ========================= -->
+
+	<div class="wrapper wrapper2"></div>
+
+	<!-- ========== -->
+	<!-- ABOUT PAGE -->
+	<!-- ========== -->
+
+	<div class="wrapper wrapper3 scrollme">
+		<div class="row">
+			<div class="small-12 medium-8 small-centered medium-centered columns" id="aboutContent">
+				<div class="animateme"
+        				data-when="enter"
+				        data-from="0.5"
+				        data-to="0"
+				        data-opacity="0"
+				        data-translatex="-100"
+				        data-easing="easeinout"
+				        id="aboutText">
+					<h2 class="adventPro">WHAT TO KNOW</h2>
+					<hr>
+						<ul>
+							<li>fresh, young blood in the front-end web development game</li>
+							<li>strong writing, communications and public relations background</li>
+							<li>born & raised in silicon valley - schooled & employed in southern california</li>
+							<li>die-hard golden state warriors fan and avid videogamer</li>
+							<li>spiderman is his favorite web developer</li>
+						</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- =========== -->
+	<!-- SKILLS PAGE -->
+	<!-- =========== -->
+
+	<div class="wrapper wrapper4">
+		<div class="row">
+			<div class="small-12 columns" id="skillContent">
+				<div class="small-12 medium-12 small-centered medium-centered columns" id="skillText">
+					<div id="skillHeader">
+						<h1 
+						class="accentedText alignCenter josefinSlab">"Everyone you will ever meet will know something that you don't." - <span class="quoteAuthor">Bill Nye, the Science Guy</span></h1>
+						<hr>
+						<h3 
+						class="small-12 medium-10 small-centered medium-centered columns alignCenter" id="skillSubheader">Well, that means there's a lot of people that I still need to meet because I've learned that I have a long way to go. And that's the way it should be - the journey for knowledge never ends, and that's what makes <span class="crossOut">this industry of work</span> <b>life itself</b> so damn exciting.<br><br>Here's what I've got in my repertoire so far:</h3>
+						<div class="small-12 medium-10 small-centered medium-centered columns alignCenter animateme scrollme"
+        				data-when="enter"
+				        data-from="0.5"
+				        data-to="0"				        
+				        data-easing="easeinout"
+				        data-translatey="300" id="skillLogos">
+							<figure>
+								<img src="images/skillsLogos/htmlLogo.png" alt="HTML Logo">
+								<figcaption><br>HTML</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images/skillsLogos/cssLogo.png" alt="CSS Logo">
+								<figcaption><br>CSS</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images/skillsLogos/javascriptLogo.png" alt="Javascript Logo">
+								<figcaption><br>Javascript</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images/skillsLogos/jqueryLogo.png" alt="jQuery Logo">
+								<figcaption><br>jQuery (UI)</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images/skillsLogos/sublimeLogo.png" alt="Sublime Logo">
+								<figcaption>Sublime <br>Text Editor</figcaption>
+							</figure>
+
+							<br class="skillBreak">
+
+							<figure>
+								<img src="images/skillsLogos/foundationLogo.png" alt="Foundation Logo">
+								<figcaption><br>Foundation</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images/skillsLogos/bootstrapLogo.png" alt="Bootstrap Logo">
+								<figcaption><br>Bootstrap</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images/skillsLogos/photoshopLogo.png" alt="Photoshop Logo">
+								<figcaption>Adobe<br>Photoshop</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images/skillsLogos/illustratorLogo.png" alt="Illustrator Logo">
+								<figcaption>Adobe<br>Illustrator</figcaption>
+							</figure>
+
+							<figure>
+								<img src="images/skillsLogos/balsamiqLogo.png" alt="Balsamiq Logo">
+								<figcaption>Balsamiq <br>Mockups</figcaption>
+							</figure>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- ============== -->
+	<!-- EXPERIENCE PAGE -->
+	<!-- ============== -->
+
+	<div class="wrapper wrapper5" id="expSection">
+		<div class="row"> 
+			<div class="experienceContent">
+				<div id="experienceHeader">
+					<h1 class="accentedText alignCenter josefinSlab">"There is no advertisement as powerful as a positive reputation traveling fast." - <span class="quoteAuthor">Brian Koslow, Breakthrough Coaching, Inc.</span></h1>
+					<hr>
+					<h3 class="small-12 medium-10 small-centered medium-centered columns raleway">...and the aforementioned is preceisely what I've aimed to do. A good attitude and positive outlook are intangibles that exceed any collection of knowledge that one individual might possess. As it's been said before - "Anyone can walk the walk, but are you a dedicated, team-oriented individual?"<br><br>I, uhm, don't think that's how the original quote went, but hey, life is all about progression and making an impact wherever you go, ain't it?</h3>
+				</div>
+
+				<div id="experienceList">
+					<div class="small-10 medium-10 large-12 small-centered medium-centered large-centered columns experienceList">
+
+						<div class="row experienceEntry animateme scrollme"
+        				data-when="enter"
+				        data-from="0.4"
+				        data-to="0"
+				        data-opacity="0"
+				        data-easing="easeinout"
+				        data-translatex="-360">
+							<div class="small-2 columns entryLogo">
+								<img src="images/experienceLogos/generalAssemblyLogo.png" alt="General Assembly Logo">
+							</div>
+							<div class="small-10 columns entryText raleway ">
+								<p><b>FRONT END WEB DEVELOPMENT | October 2014 - January 2015</b><br>
+								General Assembly took in the minimal self-training I had and turned me into a budding, young developer. But moreso than that, they taught the most important lesson of being a developer: learning how to learn. Because of GA, I now have a pocket full of coding tricks, but for the ones I don't know, I now have the confidence that I can learn anything.</p>
+							</div>
+						</div>
+
+						<div class="row experienceEntry animateme scrollme"
+        				data-when="enter"
+				        data-from="0.4"
+				        data-to="0"
+				        data-opacity="0"
+				        data-easing="easeinout"
+				        data-translatex="136">
+							<div class="small-2 columns entryLogo">
+								<img src="images/experienceLogos/uciLogo.png" alt="University of California, Irvine Logo">
+							</div>
+							<div class="small-10 columns entryText raleway">
+								<p><b>B.A. PSYCHOLOGY & SOCIAL BEHAVIOR | September 2011 - June 2013</b><br>
+								Undergraduate college has taught me how to multimanage networking, assignments, extracurriculars and personal time. Though being a transfer student might've seemed like an inherent disadvantage, it only helped me become crafty in finding more efficient means of studying and working.</p>
+							</div>
+						</div>
+
+						<div class="row experienceEntry animateme scrollme"
+        				data-when="enter"
+				        data-from="0.4"
+				        data-to="0"
+				        data-opacity="0"
+				        data-easing="easeinout"
+				        data-translatex="-360">
+							<div class="small-10 columns entryText raleway">
+								<p><b>COMMUNICATIONS COORDINATOR | June 2013 - Current</b><br>
+								From what was once a 60-page hand-delivered paper behemoth and is now a slick email-based system, I lead the transformation of the internal news distribution using internal websites for hosting company-wide news content. I also had a hand in writing press releases, media response documents and blog content.</p>
+							</div>
+							<div class="small-2 columns entryLogo">
+								<img src="images/experienceLogos/ticLogo.png" alt="Irvine Company Logo">
+							</div>
+						</div>
+
+						<div class="row experienceEntry animateme scrollme"
+        				data-when="enter"
+				        data-from="0.4"
+				        data-to="0"
+				        data-opacity="0"
+				        data-easing="easeinout"
+				        data-translatex="136">
+							<div class="small-10 columns entryText raleway">
+								<p><b>ADMINSTRATIVE ASSISTANT | September 2012 - December 2012</b><br>
+								This curriculum-sponsored experience had me working a variety of different responsibilties, most including your basic administrative work like answering phone calls, emails and customer questions. However, I did get to assist managing the CMS for the company store, and create some blog content for their Wordpress and Facebook too.</p>
+							</div>
+							<div class="small-2 columns entryLogo">
+								<img src="images/experienceLogos/centerlivingpeaceLogo.png" alt="Center for Living Peace Logo">
+							</div>
+						</div>
+
+						<div class="row experienceEntry animateme scrollme"
+        				data-when="enter"
+				        data-from="0.4"
+				        data-to="0"
+				        data-opacity="0"
+				        data-easing="easeinout"
+				        data-translatex="-360">
+							<div class="small-10 columns entryText raleway">
+								<p><b>TUTOR | March 2010 - April 2011</b><br>
+								Who doesn't like working with kids? I lead study teams of up to six students and made sure that each kid who visited my table had a fun experience while learning &mdash; who said learning can't be enjoyable? Needless to say, my table was a popular choice when I was in town.</p>
+							</div>
+							<div class="small-2 columns entryLogo">
+								<img src="images/experienceLogos/kumonLogo.png" alt="Kumon Logo">
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- ========================= -->
+	<!-- GRADIENT BETWEEN SECTIONS -->
+	<!-- ========================= -->
+
+	<!-- <div class="wrapper wrapper6"></div> -->
+
+	<!-- ============ -->
+	<!-- CONTACT PAGE -->
+	<!-- ============ -->
+
+	<div class="wrapper wrapper7">
+		<div class="row">
+			<div class="contactContent">
+
+				<div id="contactHeader">
+					<h1 class="small-12 small-centered column alignCenter accentedText josefinSlab">"We all make choices in life, but in the end, <br class="quoteBreak">our choices make us." - <span class="quoteAuthor">Andrew Ryan, Bioshock</span></h1>
+					<hr>
+					<h3 class-"small-10 small-centered columns raleway">You've now hit a crossroads in the path. Are you going to make the choice in life that will end up defining you and I, and our future together? Make the decision - submit a message and I'll return the favor right away. And as always, thanks for stopping by.</h3>
+				</div>
+
+				<form id="form1" name="form1" class="wufoo leftLabel page small-12 columns raleway animateme scrollme"
+        				data-when="span"
+				        data-from="0.5"
+				        data-to="0"
+				        data-easing="easeinout"
+				        data-translatey="300" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" novalidate action="https://marcjmonforte.wufoo.com/forms/z1he3eet01lkwdm/#public" target="_blank">
+
+				<ul>
+
+					<li id="foli6" class="notranslate">
+						<label class="desc" id="title6" for="Field6"></label>
+						<div>
+							<input id="Field6" name="Field6" type="text" class="field text small" maxlength="255" tabindex="1" onkeyup="" placeholder="enter name"/>
+						</div>
+					</li>
+
+					<li id="foli2" class="notranslate">
+						<label class="desc" id="title2" for="Field2"></label>
+				
+						<div>
+							<input id="Field2" name="Field2" type="text" class="field text small" maxlength="255" tabindex="2" onkeyup="" placeholder="enter email"/>
+						</div>
+					</li>
+
+					<li id="foli3" class="notranslate">
+						<label class="desc" id="title3" for="Field3"></label>
+
+						<div>
+							<textarea id="Field3" name="Field3"	class="field textarea small"
+							spellcheck="true" rows="10" cols="50" tabindex="3" onkeyup="" placeholder="drop a message!"></textarea>
+						</div>
+					</li> 
+
+					<li class="buttons">
+						<div>
+						    <input id="saveForm" name="saveForm" class="btTxt submit contactButton"
+						    type="submit" value="Submit - speak to you soon!"/>
+						</div>
+					</li>
+
+					<li class="hide">
+						<label for="comment">Do Not Fill This Out</label>
+							<textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+							<input type="hidden" id="idstamp" name="idstamp" value="cAsZRqDSTnczP+8AeUoj3nnFRC7D/EpD/CrNxV4Swx8=" />
+					</li>
+				</ul>
+
+			</form>
+			</div>
+		</div>
+	</div>
+
+
+	
+</body>
+</html>

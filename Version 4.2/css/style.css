@@ -1,0 +1,293 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(http://fonts.googleapis.com/css?family=Coustard);
+
+.displayNone {
+	display: none;
+}
+
+/*/////////////////////*/
+/*LANDING PAGE STYLINGS*/
+/*/////////////////////*/
+
+body {
+	font-family: Oswald;
+	font-size: 1em;	
+	height: 200vh;
+	background-color: black;
+}
+
+hr {
+	border-color: gold;
+}
+
+/*/////////////////////*/
+/*LANDING PAGE STYLINGS*/
+/*/////////////////////*/
+
+#landingPage {
+	background: 
+		linear-gradient(
+	        rgba(255, 255, 255, 0.15), 
+	        rgba(255, 255, 255, 0.65)
+	    ),
+	    url(../images/jumbotron-3.png);
+	background-size: cover;
+	height: 100vh;
+	width: 100vw;
+	display: none;
+	position: fixed;
+	z-index: -4;
+	-webkit-filter: blur(5px);
+    filter: blur(5px);
+}
+
+#landingPageQuote {
+	height: 100vh;
+	width: 30vw;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: 5%;
+	display: none;
+	z-index: -2;
+}
+
+#blockquote {
+	margin-top: 28%;
+	font-family: Amatic SC;
+	font-size: 2.1em;
+	font-style: italic;
+}
+
+.colorAccentGold {
+	color: gold;
+}
+
+#landingPageCTA {
+	color: white;
+	background-color: transparent;
+	display: none;
+	border: 1px solid white;
+	border-radius: 5px;
+	padding: 0.5% 5%;
+	text-align: center;
+	position: relative;
+	margin-top: 10vh;
+}
+
+/*//////////////////////*/
+/*WHO AM I PAGE STYLINGS*/
+/*//////////////////////*/
+
+#whoPage {
+	height: 19vh;
+	width: 100vw;
+	background-color: rgb(155,155,155);
+	display: none;
+}
+
+#whoPage h1 {
+	font-family: Coustard;
+	color: white;
+	text-align: center;
+	font-size: 2.1em;
+	width: 60vw;
+	margin: 0 auto;
+}
+
+.crossout {
+	text-decoration: line-through;
+	opacity: 0.5;
+}
+
+/*//////////////////////*/
+/*ABOUT ME PAGE STYLINGS*/
+/*//////////////////////*/
+
+.aboutColumns {
+	height: 81vh;
+	color: white;
+	border: 1px solid black;
+	background-color: rgb(35,35,35);
+	display: none;
+}
+
+#leftColumn, #middleColumn, #rightColumn {
+	display: none;
+}
+
+#profileImage {
+	text-align: center;
+	margin-top: 3vh;
+}
+
+#profileImage img {
+	height: auto;
+	width: 70%;
+	border: 8px solid white;
+	border-radius: 100%;
+	-webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+}
+
+#aboutText {
+	padding: 0 1em;
+}
+
+.socialIcons {
+	text-align: center;
+}
+
+.socialIcons img {
+	margin: 0 1em;
+}
+
+#skillsHeader {
+	text-align: left;
+	background-color: white;
+	color: black;
+	width: 100%;
+}
+
+#skillsSection, #experienceSection, #captionSection {
+	border: 8px solid white;
+	border-radius: 15px;
+	margin-top: 3vh;
+	background-color: white;
+	color: black;
+	font-size: 1.2em;
+	font-family: Coustard;
+}
+
+#skillsLogos, #experienceLogos, #logoCaptions {
+	text-align: center;
+	padding: 1em;
+	background-color: rgb(35,35,35);
+	border: 2px solid gold;
+	border-radius: 5px;
+}
+
+#logoCaptions {
+	height: 24.5vh;
+	color: white;
+	font-family: Oswald;
+}
+
+#captionPlaceholder {
+	font-size: 3em;
+	background-color: gray;
+	height: 95%;
+	width: 100%;
+	padding-top: 10%;
+	border-radius: 5px;
+	border: 2px solid gold;
+	position: relative;
+	opacity: 0.05;
+}
+
+#skillsLogos img, #experienceLogos img {
+	height: 6vh;
+	width: auto;
+	-webkit-filter: grayscale(70%);
+    filter: grayscale(70%);
+    margin: 0.5em;
+}
+
+#rightColumn img {
+	width: 50%;
+}
+
+/*/////////////////////*/
+/*CONTACT PAGE STYLINGS*/
+/*/////////////////////*/
+
+#contactPage {
+	height: 50vh;
+	background-color: black;
+	padding-top: 3vh;
+	display: none;
+}
+
+#contactPage form {
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 5vh;
+	display: none;
+}
+
+#contactHeader {
+	color: white;
+	font-size: 1.5em;
+	text-align: right;
+}
+
+.contactButton {
+	width: 100%;
+	background-color: gold;
+	border: none;
+	font-family: Oswald;
+	padding: 1.2em;
+	font-size: 1.2em;
+}
+
+/*/////////////*/
+/*MEDIA QUERIES*/
+/*/////////////*/
+
+@media (min-width:20em) {
+	#landingPageQuote {
+		width: 100vw;
+		padding: 15%;
+	}
+
+	#whoPage {
+		height: 16vh;
+	}
+
+	#whoPage h1 {
+		font-size: 1em;
+	}
+}
+
+@media (min-width:31em) {
+	#landingPageQuote {
+		width: 100vw;
+	}
+
+	#whoPage h1 {
+		width: 80vw;
+	}
+}
+
+@media (min-width:41em) {
+	#landingPageQuote {
+		width: 100vw;
+	}
+
+	#whoPage h1 {
+		font-size: 1.2em;
+	}
+}
+
+@media (min-width:61em) {
+	#landingPageQuote {
+		width: 50vw;
+		padding: 5%;
+	}
+}
+
+@media (min-width:65em) {
+	#landingPageQuote {
+		width: 50vw;
+	}
+
+	#whoPage h1 {
+		font-size: 1.6em;
+	}
+}
+
+@media (min-width:81em) {
+	#landingPageQuote {
+		width: 30vw;
+	}
+}

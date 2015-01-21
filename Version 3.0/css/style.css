@@ -1,0 +1,45 @@
+.col-md-12 {
+	font-family: helvetica;
+	font-size: 0.9em;
+}
+
+#header {
+	height: 6vh;
+	background-color: rgb(234,234,245);
+	padding-top: 3vh;
+	padding-left: 3vh;
+}
+
+#logo {
+	font-size: 1.3em;
+}
+
+#jumbotron {
+	height: 50vh;
+	background-image: url(../images/exampleJumbotron.jpg);
+	background-size: 100% 100%;
+	box-shadow: 0 5px 50px red;
+}
+
+#factoid {
+	height: 20vh;
+	background-color: rgb(234,234,245);
+	box-shadow: 0 -5px 50px white;
+}
+
+#portfolio {
+	height: 50vh;
+	background-color: rgb(37,40,47)
+
+}
+
+#testimonials {
+	height: 25vh;
+	background-color: rgb(234,234,245);
+}
+
+#footer {
+	height: 40vh;
+	background-color: rgb(21, 22, 25);
+	color: white;
+}

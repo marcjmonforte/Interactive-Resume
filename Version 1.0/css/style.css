@@ -1,0 +1,27 @@
+* {
+	background-color: lightblue;
+}
+
+#header, #footer {
+	height: 130px;
+}
+
+#header {
+	border-bottom: 10px solid white;
+}
+
+#examples, #blurb, #skills, #education{
+	height: 500px;
+	border-left: 5px solid white;
+	border-right: 5px solid white;
+}
+
+#inspiration {
+	height: 100px;
+	border-top: 10px solid white;
+	border-bottom: 10px solid white;
+}
+
+#footer {
+	border-top: 10px solid white;
+}

@@ -1,0 +1,196 @@
+/*Imported fonts*/
+
+@import url(http://fonts.googleapis.com/css?family=Anton);
+@import url(http://fonts.googleapis.com/css?family=Jockey+One);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+/*Global stylings*/
+
+body {
+	font-family: Open Sans;
+	font-size: 1.1em;
+}
+
+.sectionHeadline {
+	width: 10%;
+	height: 1em;
+	padding: 3px 10px;
+	background-color: rgb(196,118,15);
+	box-shadow: 4px 4px 1px darkgray;
+	float: right;
+	text-align: left;
+	position: relative;
+	top: 20px;
+	color: white;
+	font-size: 1.8em;
+	font-family: Jockey One;
+}
+
+/*Jumbotron styling*/
+
+#jumbotron {
+	height: 100vh;
+}
+
+#jumbotronImage {
+	height: 100vh;
+	width: 100%;
+	background: 
+		linear-gradient(
+	    	rgba(57,98,120, 0.85), 
+	    	rgba(57,98,120, 0.85)
+	    ),
+		url(../images/jumbotron.jpg);
+	background-size: cover;
+}
+
+.jumbotronText {
+	width: 1000px;
+	color: white;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: -33%;
+	z-index: 1;
+	font-size: 5em;
+	font-family: Anton;
+	text-shadow: 3px 3px teal;
+}
+
+#jumbotronHR {
+	width: 540px;
+	border: 1px solid white;
+}
+
+#jumbotronTitle {
+	margin-top: 0.5%;
+	font-size: 2em;
+	font-family: Jockey One;
+	letter-spacing: 2px;
+	word-spacing: 3px;
+}
+
+/*Profile styling*/
+
+#profile {
+	height: 50vh;
+	/*background-color: rgb(219,238,203);*/
+	box-shadow: 0 3px 5px gray;
+}
+
+#profileImage {
+	height: 75%;
+	width: 350px;
+	border: 6px solid rgb(57,98,120);
+	border-radius: 50%;
+	background-image: url(../images/profileImage.png);
+	background-size: cover;
+	position: relative;
+	top: 9%;
+	left: 15%;
+	display: block-inline;
+}
+
+#profileContent {
+	position: relative;
+	width: 45%;
+	height: 80%;
+	/*border: 1px dashed gray;*/
+	border-left: 6px solid rgb(57,98,120);
+	position: relative;
+	top: -70%;
+	left: 40%;
+}
+
+#profileWelcome{
+	float: left;
+	height:100%;
+	width: 45%;
+	padding: 5px 15px;
+	/*border: 1px dashed red;*/
+	display: inline-block;
+}
+
+#profileWelcomeHeadline, #profileSocialHeadline {
+	font-family: Jockey One;
+	color: rgb(33,89,120);
+	font-size: 1.6em;
+	margin-bottom: 0.5em;
+}
+
+#profileSocialHeadline {
+	letter-spacing: -0.75px;
+}
+
+#profileSocial {
+	float: left;
+	height: 100%;
+	width: 45%;
+	padding: 5px 15px;
+	margin-left: 1%;
+	/*border: 1px dashed red;*/
+	display: inline-block;
+}
+
+.profileSocialMedia {
+	width: 100%;
+	height: 40px;
+	border-radius: 5px;
+	border: none;
+	margin-top: 10px;
+	color: white;
+	font-size: 0.9em;
+	letter-spacing: -1.2px;
+}
+
+#psmFacebook {
+	background-color: #3B5998;
+}
+
+#psmTwitter {
+	background-color: #00aced;
+}
+
+#psmInstagram {
+	background-color: #517fa4;
+}
+
+#psmLinkedIn {
+	background-color: #007bb6;
+}
+
+#psmGitHub {
+	background-color: black;
+}
+
+#psmEmail {
+	background-color: #dd4b39;
+}
+
+/*Skills styling*/
+
+#skills {
+	height: 70vh;
+	background-color: rgb(240,236,216);
+}
+
+/*Experiences styling*/
+
+#experiences {
+	height: 150vh;
+	/*background-color: rgb(219,238,203);*/
+}
+
+#portfolio {
+	height: 50vh;
+	background-color: rgb(240,236,216);
+}
+
+#contact {
+	height: 50vh;
+	background-color: rgb(14,25,33);
+}
+
+#contactHeadline {
+	color: white;
+	box-shadow: 4px 4px 1px black;
+}
